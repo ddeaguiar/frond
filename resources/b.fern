@@ -1,0 +1,4 @@
+{host "localhost"
+ timeout 4000
+ servers #include servers.fern
+ emails #=`["me@example.com" ~@#include ops.edn "joe@example.com"]}

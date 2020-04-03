@@ -1,0 +1,2 @@
+{:a #include i1.edn
+ :b #=`[1 ~@#include i2.edn 4]}
